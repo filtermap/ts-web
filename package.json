@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "watch": "run-p watch:client watch:server",
-    "watch:client": "parcel watch src/client/index.html --out-dir=dist/client",
-    "watch:server": "nodemon --watch src/server --exec run-s build:server start",
+    "dev": "run-p dev:client dev:server",
+    "dev:client": "parcel watch src/client/index.html --out-dir=dist/client",
+    "dev:server": "nodemon --watch src/server --exec run-s build:server start",
     "type-check": "tsc --noEmit",
     "lint": "eslint --ext .js,.ts,.tsx .",
     "test": "jest",

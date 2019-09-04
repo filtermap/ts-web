@@ -11,7 +11,7 @@ yarn
 ## develop
 
 ```sh
-yarn watch
+yarn dev
 ```
 
 ## type check
